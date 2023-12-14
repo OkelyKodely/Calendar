@@ -8,7 +8,7 @@
 
 Class.forName("com.mysql.jdbc.Driver");
     
-Connection connection = DriverManager.getConnection("jdbc:mysql://mysql3000.mochahost.com/himwepro_a","himwepro_a","yyyty");
+Connection connection = DriverManager.getConnection("","","");
 
 
 Statement statement = connection.createStatement();
